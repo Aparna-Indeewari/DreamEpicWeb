@@ -6,7 +6,7 @@ import Image from 'react-bootstrap/Image'
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import { auth } from '../Config/firebase';
+
 
 
 
@@ -25,7 +25,7 @@ export default function Studentexam() {
                     <div style={{ paddingLeft: '2vh', paddingTop: '8vh' }}>
                         <div style={{ paddingLeft: '30vh' }}>
                             <p style={{ fontSize: '30px' }}><Image src="https://play-lh.googleusercontent.com/7Ac5TgaL15Ra4bvFVHJKCdJp4qvnL4djZj5bKc6RN-MZjzrvkeHbJytek0NPTSdZcp8" style={{ width: '10%' }} roundedCircle={true} />
-                                &nbsp; <b>Hello {auth.currentUser?.email} </b></p>
+                                &nbsp; <b>Hello  </b></p>
                         </div>
 
                         <div style={{ paddingTop: '2vh', paddingLeft: '30vh', paddingRight: '45vh' }}>

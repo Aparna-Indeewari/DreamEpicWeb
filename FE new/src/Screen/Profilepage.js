@@ -21,7 +21,7 @@ export default function Profilepage() {
                 <Col sm={10}>
 
                     <div style={{ paddingLeft: '2vh', paddingTop: '2vh' }}>
-                        <p style={{ fontSize: '30px' }}><Image src="https://play-lh.googleusercontent.com/7Ac5TgaL15Ra4bvFVHJKCdJp4qvnL4djZj5bKc6RN-MZjzrvkeHbJytek0NPTSdZcp8" style={{ width: '12%' }} roundedCircle={true} />
+                        <p style={{ fontSize: '30px' }}><Image  src="https://play-lh.googleusercontent.com/7Ac5TgaL15Ra4bvFVHJKCdJp4qvnL4djZj5bKc6RN-MZjzrvkeHbJytek0NPTSdZcp8" style={{ width: '12%' }} roundedCircle={true} />
                             &nbsp; John Perea</p>
                         <div style={{ paddingTop: '2vh', paddingLeft: '25vh', paddingRight: '35vh' }}>
 
