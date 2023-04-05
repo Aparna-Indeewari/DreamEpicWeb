@@ -1,29 +1,40 @@
+//importing the Mongoose library for MongoDB database interaction.
 const mongoose = require("mongoose");
+//importing the bcryptjs library for hashing passwords.
 const bcrypt = require("bcryptjs");
+//importing the jsonwebtoken library for generating and verifying JSON web tokens.
 const jwt = require("jsonwebtoken");
 
+//creating a new Mongoose schema for the user.
 const UserSchema = new mongoose.Schema({
+  // field for the username, which is a string
   username: {
     type: String,
   },
+  //field for the email, which is a string
   email: {
     type: String,
 
   },
+  //field for the password, which is a string
   password: {
     type: String,
 
   },
+  //field for the role, which is a string
   role: {
     type: String,
 
   },
+  //field for the profile picture, which is an object
   profilePicture: {
+    //field for the image's public ID, which is a string and is required
     imagePublicId: {
       type: String,
       required: [true, "Please provide a Image"],
 
     },
+    //field for the image's secure URL, which is a string
     imageSecURL: {
       type: String,
 
