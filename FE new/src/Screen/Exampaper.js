@@ -3,6 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import Camera from "../Component/Camera";
                  
 {/* Dataset  */}
 const data = [{
@@ -71,7 +72,8 @@ export default function Exampaper() {
 
                                 </Col>
                                 <Col sm={3}>
-                                    <img style={{ width: "200px", height: "173px" }} src='https://preview.redd.it/anime-boy-not-sure-what-to-draw-v0-up4i92bytvea1.jpg?auto=webp&s=42aa6ad5a5eb452c6ac87c69bde3e1eb69b56313' alt="user" />
+                                    {/* <img style={{ width: "200px", height: "173px" }} src='https://preview.redd.it/anime-boy-not-sure-what-to-draw-v0-up4i92bytvea1.jpg?auto=webp&s=42aa6ad5a5eb452c6ac87c69bde3e1eb69b56313' alt="user" /> */}
+                                    <Camera style={{ width: "200px", height: "173px" }} />
                                 </Col>
                             </Row>
                         </div>
