@@ -1,0 +1,10 @@
+{
+  "save_paths": {
+    "face_detection": "../face detection",
+    "cheat_detection": "../cheat detection"
+  },
+  "model_paths": {
+    "classification_model": "../models/converted_model_4.tflite",
+    "face_detection_model": "../models/frozen_inference_graph.pb"
+  }
+}
